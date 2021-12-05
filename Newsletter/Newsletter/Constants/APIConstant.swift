@@ -9,7 +9,7 @@ import Foundation
 
 enum APIConstant {
     
-    static let baseAllURL = "https://newsapi.org/v2/everything?apiKey=d98cee2bc92e4af5947b3b5a101dbdca"
-    static let baseHeadlineURL = "https://newsapi.org/v2/top-headlines?apiKey=d98cee2bc92e4af5947b3b5a101dbdca&country=fr"
+    static let baseAllURL = "https://newsapi.org/v2/everything?apiKey=API_KEY_HERE"
+    static let baseHeadlineURL = "https://newsapi.org/v2/top-headlines?apiKey=API_KEY_HERE&country=fr"
     
 }
