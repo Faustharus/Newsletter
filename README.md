@@ -11,5 +11,5 @@ J'avais initialement mis cette affichage par le biais d'une WebView en utilisant
 
 J'ai pû également identifer que de sous-diviser ma VueModel en mettant en place un Service serait grandement utile, il me resterait également à pouvoir appliquer des Tests Unitaires (comme indiqué plus haut) et enfin stylisé le tout afin de le rendre plus agréable visuellement
 
-Par contre, NewsAPI avec un compte gratuit limite grandement l'affichage des données par jour
+UPDATE 05/12/21 - Rajout du Service et Refactorisation du Code, L'App est désormais en MVVM
 
