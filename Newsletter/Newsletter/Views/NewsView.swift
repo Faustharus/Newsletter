@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NewsView: View {
-    @EnvironmentObject var vm: NewsletterViewModel
+    @EnvironmentObject var vm: NewsletterViewModelImpl
     @State private var queryName: String = ""
     
     var body: some View {
@@ -37,7 +37,7 @@ struct NewsView: View {
 struct NewsView_Previews: PreviewProvider {
     static var previews: some View {
         NewsView()
-            .environmentObject(NewsletterViewModel())
+            .environmentObject(NewsletterViewModelImpl(service: NewsletterServiceImpl()))
     }
 }
 
@@ -46,8 +46,7 @@ extension NewsView {
     
     func fetchCurrentNews(queryName: String) async {
         let queryName = queryName.replacingOccurrences(of: " ", with: "+")
-        let urlString = "\(vm.urlString)&q=\(queryName)"
-        await vm.loadData(with: urlString)
+        await vm.fetchAllNews(queryName)
     }
     
 }

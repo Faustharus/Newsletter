@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E3C1D95275D22DD00545FB6 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C1D94275D22DD00545FB6 /* APIConstant.swift */; };
+		9E3C1D98275D237200545FB6 /* NewsletterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C1D97275D237200545FB6 /* NewsletterService.swift */; };
 		9E531A1A274BF4FE00E23975 /* NewsletterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E531A19274BF4FE00E23975 /* NewsletterApp.swift */; };
 		9E531A1C274BF4FE00E23975 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E531A1B274BF4FE00E23975 /* ContentView.swift */; };
 		9E531A1E274BF50000E23975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E531A1D274BF50000E23975 /* Assets.xcassets */; };
 		9E531A21274BF50000E23975 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E531A20274BF50000E23975 /* Preview Assets.xcassets */; };
 		9E531A28274BF51300E23975 /* NewsletterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E531A27274BF51300E23975 /* NewsletterModel.swift */; };
 		9E55264E274E3E3A0066AF6A /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E55264D274E3E3A0066AF6A /* NewsDetailView.swift */; };
-		9E552650274E55150066AF6A /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E55264F274E55150066AF6A /* PreviewProvider.swift */; };
 		9E563BDC2752467100C3AA4F /* HeadlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E563BDB2752467100C3AA4F /* HeadlineView.swift */; };
-		9E77DDB5275296A7009E75CB /* WebRetrieveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E77DDB4275296A7009E75CB /* WebRetrieveView.swift */; };
 		9E7CBF1E274F9BF300BBB13C /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7CBF1D274F9BF300BBB13C /* Images.swift */; };
 		9E980D6E27523CB60065D22A /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E980D6D27523CB60065D22A /* NewsView.swift */; };
 		9EA7B7DB274CF20C0080D564 /* NewsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7B7DA274CF20C0080D564 /* NewsRowView.swift */; };
-		9EA7B7DD274CF2470080D564 /* NewsletterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7B7DC274CF2470080D564 /* NewsletterViewModel.swift */; };
+		9EA7B7DD274CF2470080D564 /* NewsletterViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7B7DC274CF2470080D564 /* NewsletterViewModelImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E3C1D94275D22DD00545FB6 /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		9E3C1D97275D237200545FB6 /* NewsletterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterService.swift; sourceTree = "<group>"; };
 		9E531A16274BF4FE00E23975 /* Newsletter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newsletter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E531A19274BF4FE00E23975 /* NewsletterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterApp.swift; sourceTree = "<group>"; };
 		9E531A1B274BF4FE00E23975 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,13 +32,11 @@
 		9E531A20274BF50000E23975 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E531A27274BF51300E23975 /* NewsletterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterModel.swift; sourceTree = "<group>"; };
 		9E55264D274E3E3A0066AF6A /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
-		9E55264F274E55150066AF6A /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		9E563BDB2752467100C3AA4F /* HeadlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineView.swift; sourceTree = "<group>"; };
-		9E77DDB4275296A7009E75CB /* WebRetrieveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRetrieveView.swift; sourceTree = "<group>"; };
 		9E7CBF1D274F9BF300BBB13C /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		9E980D6D27523CB60065D22A /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		9EA7B7DA274CF20C0080D564 /* NewsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRowView.swift; sourceTree = "<group>"; };
-		9EA7B7DC274CF2470080D564 /* NewsletterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterViewModel.swift; sourceTree = "<group>"; };
+		9EA7B7DC274CF2470080D564 /* NewsletterViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterViewModelImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +50,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E3C1D93275D22CB00545FB6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9E3C1D94275D22DD00545FB6 /* APIConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9E3C1D96275D235800545FB6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9E3C1D97275D237200545FB6 /* NewsletterService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		9E531A0D274BF4FE00E23975 = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +91,8 @@
 				9E7CBF1F274F9E4B00BBB13C /* Components */,
 				9E7CBF19274F9AD400BBB13C /* ViewModel */,
 				9E7CBF18274F9ABA00BBB13C /* Model */,
-				9E7CBF1A274F9AE900BBB13C /* Extension */,
+				9E3C1D96275D235800545FB6 /* Service */,
+				9E3C1D93275D22CB00545FB6 /* Constants */,
 				9E531A1D274BF50000E23975 /* Assets.xcassets */,
 				9E531A1F274BF50000E23975 /* Preview Content */,
 			);
@@ -101,23 +118,14 @@
 		9E7CBF19274F9AD400BBB13C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				9EA7B7DC274CF2470080D564 /* NewsletterViewModel.swift */,
+				9EA7B7DC274CF2470080D564 /* NewsletterViewModelImpl.swift */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		9E7CBF1A274F9AE900BBB13C /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				9E55264F274E55150066AF6A /* PreviewProvider.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 		9E7CBF1F274F9E4B00BBB13C /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				9E77DDB4275296A7009E75CB /* WebRetrieveView.swift */,
 				9E7CBF1D274F9BF300BBB13C /* Images.swift */,
 			);
 			path = Components;
@@ -207,12 +215,12 @@
 				9E980D6E27523CB60065D22A /* NewsView.swift in Sources */,
 				9EA7B7DB274CF20C0080D564 /* NewsRowView.swift in Sources */,
 				9E531A1C274BF4FE00E23975 /* ContentView.swift in Sources */,
+				9E3C1D98275D237200545FB6 /* NewsletterService.swift in Sources */,
 				9E531A1A274BF4FE00E23975 /* NewsletterApp.swift in Sources */,
-				9EA7B7DD274CF2470080D564 /* NewsletterViewModel.swift in Sources */,
+				9EA7B7DD274CF2470080D564 /* NewsletterViewModelImpl.swift in Sources */,
 				9E55264E274E3E3A0066AF6A /* NewsDetailView.swift in Sources */,
 				9E7CBF1E274F9BF300BBB13C /* Images.swift in Sources */,
-				9E552650274E55150066AF6A /* PreviewProvider.swift in Sources */,
-				9E77DDB5275296A7009E75CB /* WebRetrieveView.swift in Sources */,
+				9E3C1D95275D22DD00545FB6 /* APIConstant.swift in Sources */,
 				9E563BDC2752467100C3AA4F /* HeadlineView.swift in Sources */,
 				9E531A28274BF51300E23975 /* NewsletterModel.swift in Sources */,
 			);

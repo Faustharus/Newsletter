@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct NewsletterApp: App {
-    @StateObject private var vm = NewsletterViewModel()
+    @StateObject private var vm = NewsletterViewModelImpl(service: NewsletterServiceImpl())
     
     var body: some Scene {
         WindowGroup {

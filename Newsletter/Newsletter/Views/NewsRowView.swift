@@ -22,8 +22,8 @@ struct NewsRowView: View {
 
 struct NewsRowView_Previews: PreviewProvider {
     static var previews: some View {
-        NewsRowView(articles: dev.news)
-            .environmentObject(NewsletterViewModel())
+        NewsRowView(articles: Article.dummyNews.first!)
+            .environmentObject(NewsletterViewModelImpl(service: NewsletterServiceImpl()))
             .previewLayout(.sizeThatFits)
             .padding()
     }

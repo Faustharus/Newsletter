@@ -61,8 +61,8 @@ struct NewsDetailView: View {
 struct NewsDetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            NewsDetailView(articles: dev.news)
-                .environmentObject(NewsletterViewModel())
+        NewsDetailView(articles: Article.dummyNews.first!)
+                .environmentObject(NewsletterViewModelImpl(service: NewsletterServiceImpl()))
         }
     }
 }

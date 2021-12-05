@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HeadlineView: View {
-    @EnvironmentObject var vm: NewsletterViewModel
+    @EnvironmentObject var vm: NewsletterViewModelImpl
     @State private var position: Int = 0
     
     let subClasses = ["business", "entertainment", "health", "science", "sports", "technology"]
@@ -47,7 +47,7 @@ struct HeadlineView: View {
 struct HeadlineView_Previews: PreviewProvider {
     static var previews: some View {
         HeadlineView()
-            .environmentObject(NewsletterViewModel())
+            .environmentObject(NewsletterViewModelImpl(service: NewsletterServiceImpl()))
     }
 }
 
@@ -55,8 +55,7 @@ struct HeadlineView_Previews: PreviewProvider {
 extension HeadlineView {
     
     func fetchHeadlinesNews(subClass: String) async {
-        let urlString = "\(vm.urlStringHeadLines)&category=\(subClass)"
-        await vm.loadHeadlineData(with: urlString)
+        await vm.fetchHeadlineNews(subClass)
     }
     
 }
