@@ -9,13 +9,34 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            ArticleNewsView()
+                .tabItem {
+                    Label("News", systemImage: "newspaper")
+                        .accessibilityLabel("News Page")
+                        .accessibilityAddTraits(.allowsDirectInteraction)
+                        .accessibilityAddTraits(.causesPageTurn)
+                }
+                .tag(0)
+            
+            ArticleSearchView()
+                .tabItem {
+                    Label("Search", systemImage: "magnifyingglass")
+                        .accessibilityLabel("Search Page")
+                        .accessibilityAddTraits(.allowsDirectInteraction)
+                        .accessibilityAddTraits(.causesPageTurn)
+                }
+                .tag(1)
+            
+            ArticleBookmarkView()
+                .tabItem {
+                    Label("Bookmarks", systemImage: "bookmark")
+                        .accessibilityLabel("Articles Bookmarked")
+                        .accessibilityAddTraits(.allowsDirectInteraction)
+                        .accessibilityAddTraits(.causesPageTurn)
+                }
+                .tag(2)
         }
-        .padding()
     }
 }
 
