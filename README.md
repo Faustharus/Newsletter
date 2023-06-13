@@ -15,3 +15,4 @@ This App is an upgrade of WorldWideNews App made with a complete different archi
 https://github.com/Faustharus/Newsletter/assets/48592115/2f428eeb-e5f0-48de-9e89-4388c6a71e5b
 https://github.com/Faustharus/Newsletter/assets/48592115/8d4fc7fb-2850-4765-a6ec-6d473a78289d
 https://github.com/Faustharus/Newsletter/assets/48592115/a452e7cf-1883-4e73-aa5b-b809f24e51fa
+https://github.com/Faustharus/Newsletter/assets/48592115/b36b15d0-255c-4d47-b98e-005f4f0ca75c
